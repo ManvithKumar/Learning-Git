@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="gallery.css">
+    <title>Gallery</title>
+</head>
+<body>
+    <h1>Gallery :-  </h1>
+    <div class="container">
+        <div class="panel active" style="background: url('https://yazilimkaravani.net/wp-content/uploads/2021/05/git_nasil_kullanilir.png');">
+            <h3>I dont remember</h3>
+        </div>
+        <div class="panel" style="background: url('https://img4.goodfon.com/wallpaper/nbig/2/5d/programming-it-code-axoleaf-gitkraken-git.jpg');">
+            <h3>I dont remember</h3>
+        </div>
+        <div class="panel" style="background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWx3UdI7PzGoNn_9mh90J-D9cFaL6ZJ9EG4UHTkpifiO1b-08xKA3ESjrQid5UIxKPEi8&usqp=CAU');">
+            <h3>I dont remember</h3>
+        </div>
+        <div class="panel" style="background: url('https://wallpapercave.com/wp/wp8591295.jpg');">
+            <h3>I dont remember</h3>
+        </div>
+        <div class="panel" style="background: url('https://c4.wallpaperflare.com/wallpaper/279/1012/1017/guy-anime-computer-tears-sadness-room-wallpaper-preview.jpg');">
+            <h3>I dont remember</h3>
+        </div>
+    </div>
+    <script>
+        const panels = document.querySelectorAll(".panel")
+
+        panels.forEach((panel)=>{
+            panel.addEventListener("click",()=>{
+            removeActiveClasses();
+            panel.classList.add("active")
+            });
+        })
+        const removeActiveClasses = () =>{
+            panels.forEach((panel) => {
+                panel.classList.remove("active")
+            })
+        }
+    </script>
+</body>
+</html>
