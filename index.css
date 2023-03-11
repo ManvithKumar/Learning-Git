@@ -2,7 +2,9 @@ body{
     background-color: rgb(7, 7, 7);
     width: 100vh;
 }
-
+a{
+    text-decoration:none;
+}
 h1{
     color: white;
     font-style: italic;
@@ -15,7 +17,11 @@ span{
     color: white;
     letter-spacing:.3cm;
 }
-
+p{
+   position: relative;
+   left: 70vh;
+   color: white;
+}
 .image{
     width: 600px;
     height: 500px;
