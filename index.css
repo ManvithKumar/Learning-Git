@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(7, 7, 7);
+    width: 100vh;
+}
+
+h1{
+    color: white;
+    font-style: italic;
+    position: relative;
+    left: 60vh;
+}
+span{
+    position: relative;
+    left: 70vh;
+    color: white;
+    letter-spacing:.3cm;
+}
+
+.image{
+    width: 600px;
+    height: 500px;
+    position: relative;
+    left: 50vh;
+    filter: brightness(100%);
+    filter: saturate(100%);
+}
+
